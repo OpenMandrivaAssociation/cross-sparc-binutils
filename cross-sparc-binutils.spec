@@ -34,6 +34,8 @@ Requires(post):	info-install
 Requires(preun):info-install
 %endif
 Conflicts:	gcc-c++ < 3.2.3-1mdk
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
 BuildRequires:	autoconf automake bison flex gcc gettext texinfo
 BuildRequires:	dejagnu
 # make check'ing requires libdl.a
